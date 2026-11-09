@@ -429,6 +429,15 @@ td button {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
 }
+/* Dashboard: grafico de contagens por dia mais largo que o Top 10 */
+.charts-grid.dashboard-grid {
+  grid-template-columns: minmax(0, 1.5fr) minmax(420px, 1fr);
+}
+@media (max-width: 1000px) {
+  .charts-grid.dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .chart-container {
   height: 350px;
   display: flex;
