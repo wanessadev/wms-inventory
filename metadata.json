@@ -1,0 +1,6 @@
+{
+  "name": "WMS Inventário Blindado",
+  "description": "Sistema corporativo de inventário WMS com arquitetura de segurança blindada, autenticação JWT/RBAC, criptografia ponta a ponta AES-GCM, rate limiting, logs de auditoria e documentação PHP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
